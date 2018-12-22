@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">An</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Today Weather Demo</string>
+    <!--<string name="app_name">test_intent</string>-->
+</resources>

@@ -1,0 +1,77 @@
+<?xml.version = "1.0" encoding = "utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/btname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:hint="연결된 장치 이름"
+            android:textSize="15dp"
+            android:padding="5sp"
+            android:gravity="right"/>
+
+        <Button
+            android:id="@+id/blop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/bl_op"
+            android:text="블라인드 열기" />
+
+        <Button
+            android:id="@+id/blcl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/bl_cl"
+            android:text="블라인드 닫기" />
+
+        <Button
+            android:id="@+id/wdop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/wd_op"
+            android:text="창문 열기" />
+
+        <Button
+            android:id="@+id/wdcl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/wd_cl"
+            android:text="창문 닫기" />
+
+
+        <Button
+            android:id="@+id/Bbus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/bus"
+            android:text="버스 정보 열기" />
+
+        <Button
+            android:id="@+id/Nalssi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/nalssi"
+            android:text="날씨 정보 열기" />
+    </LinearLayout>
+</ScrollView>
