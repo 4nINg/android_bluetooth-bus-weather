@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Common {
-    public  static final  String APP_ID = "c6784e36712fe89a3a38e1496a280506";
+    public  static final  String APP_ID = ""; // api key request
     public  static Location current_location = null;
 
 
