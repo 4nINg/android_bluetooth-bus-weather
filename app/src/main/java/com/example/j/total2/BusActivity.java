@@ -80,7 +80,7 @@ public class BusActivity extends AppCompatActivity {
         }
 
         String queryURL = "http://openapi.tago.go.kr/openapi/service/ArvlInfoInqireService/getSttnAcctoArvlPrearngeInfoList?"
-                + "serviceKey=eGJRA4dHge7CNDv2AO6kDdGy5apbeUEMPsVgIHuPmJKgqDLGtrqrpZG%2BfxXMesMlYNDf0ifgHlv8scd9N7pVDw%3D%3D"
+                + "serviceKey=" // serviceKey request
                 + "&cityCode=22&nodeId="+NODE_ID ;
 
         try{
